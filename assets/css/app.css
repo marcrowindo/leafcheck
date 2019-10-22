@@ -6,10 +6,19 @@
 * Author URL   : http://themeforest.net/user/flatheme
 *
 -------------------------------------------------*/
+
+
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900");
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
+@font-face { font-family: nexa; font-weight: bold; src: url('../fonts/nexa-bold.ttf'); }
+@font-face { font-family: nexa; src: url('../fonts/nexa-light.ttf'); }
+
+
+
+
 .bg-white-content, .bg-white, .bg-white-09, .bg-white-08, .bg-white-07, .bg-white-06, .bg-white-05, .bg-white-04, .bg-white-03, .bg-white-02, .bg-white-01, .bg-secondary, .bg-light, .bg-dark .bg-white, .bg-dark div[class^='bg-white-0'], .bg-dark div[class*=' bg-white-0'], .bg-dark-lighter .bg-white, .bg-dark-lighter div[class^='bg-white-0'], .bg-dark-lighter div[class*=' bg-white-0'], .bg-dark-lightest .bg-white, .bg-dark-lightest div[class^='bg-white-0'], .bg-dark-lightest div[class*=' bg-white-0'], div[class^='bg-black'] .bg-white, div[class^='bg-black'] div[class^='bg-white-0'], div[class^='bg-black'] div[class*=' bg-white-0'], div[class*=' bg-black'] .bg-white, div[class*=' bg-black'] div[class^='bg-white-0'], div[class*=' bg-black'] div[class*=' bg-white-0'] {
   color: #646464;
 }
@@ -20,7 +29,7 @@
 /*General*/
 
 * {
-  /*border*/: 1px solid black;
+  /*border: 1px solid black;*/
   /*background-color: red;*/
 }
 
@@ -37,14 +46,14 @@
 }
 #logo-icon {
   max-height: 24px;
-  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 /*Jumbotron*/
 
 #seal-main {
   max-width: 250px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 @media (max-width: 600px) {
@@ -439,7 +448,7 @@ h2.font-weight-light {
 }
 
 .font-family-primary {
-  font-family: "Didact Gothic", sans-serif;
+  font-family: "Nexa", sans-serif;
 }
 
 .font-family-playfair {
@@ -1437,7 +1446,7 @@ pre {
 
 .breadcrumb .breadcrumb-item {
   display: inline-block;
-  font: 400 13px "Didact Gothic", sans-serif;
+  font: 400 13px "Nexa", sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
@@ -1527,13 +1536,13 @@ pre {
 }
 
 .btn, .button, .text-btn, .text-btn-2, .text-btn-3 {
-  font: 400 13px "Didact Gothic", sans-serif;
+  font: 400 13px "Nexa", sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 .button-font-2 {
-  font: 400 15px "Didact Gothic", sans-serif;
+  font: 400 15px "Nexa", sans-serif;
   letter-spacing: 0;
   text-transform: capitalize;
 }
@@ -3453,7 +3462,7 @@ hr {
   margin-bottom: 10px;
   padding: 0;
   color: #141414;
-  font: 300 15px "Didact Gothic", sans-serif;
+  font: 300 15px "Nexa", sans-serif;
   letter-spacing: 0;
   text-transform: none;
   -webkit-transition: linear 0.1s;
@@ -3481,7 +3490,7 @@ textarea {
   margin-bottom: 10px;
   padding: 15px 20px;
   box-shadow: none;
-  font: 300 16px "Didact Gothic", sans-serif;
+  font: 300 16px "Nexa", sans-serif;
   -webkit-transition: ease-out 0.2s;
   transition: ease-out 0.2s;
 }
@@ -4416,7 +4425,7 @@ ol li ul, ol li ol {
   position: relative;
   padding: 0;
   color: #E70A3E;
-  font: 400 15px "Didact Gothic", sans-serif;
+  font: 400 15px "Nexa", sans-serif;
   letter-spacing: 1.5px;
   /*text-transform: uppercase;*/
   -webkit-transition: linear 0.1s;
@@ -5744,7 +5753,7 @@ ol li ul, ol li ol {
 
 body {
   color: #646464;
-  font: 300 16px "Didact Gothic", sans-serif;
+  font: 300 16px "Nexa", sans-serif;
   letter-spacing: 0;
 }
 
@@ -7488,7 +7497,7 @@ button.mfp-close:hover {
   border-radius: 30px;
   margin-right: 10px;
   padding: 7px 15px;
-  font: 400 13px "Didact Gothic", sans-serif;
+  font: 400 13px "Nexa", sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   cursor: pointer;
@@ -8816,7 +8825,7 @@ body.loaded:after {
 
 .prices-box .price span {
   display: block;
-  font: 300 14px "Didact Gothic", sans-serif;
+  font: 300 14px "Nexa", sans-serif;
   color: #a0a0a0;
 }
 
@@ -8838,7 +8847,7 @@ body.loaded:after {
 
 .prices-box .price h1 span, .prices-box .price h2 span, .prices-box .price h3 span, .prices-box .price h4 span, .prices-box .price h5 span, .prices-box .price h6 span {
   display: inline-block;
-  font: 300 14px "Didact Gothic", sans-serif;
+  font: 300 14px "Nexa", sans-serif;
   color: #a0a0a0;
 }
 
@@ -9225,7 +9234,7 @@ body.loaded:after {
   position: relative;
   padding: 0;
   color: #141414;
-  font: 400 13px "Didact Gothic", sans-serif;
+  font: 400 13px "Nexa", sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   -webkit-transition: linear 0.1s;
@@ -9807,7 +9816,7 @@ div[class*=' bg-black'].sidebar-nav-content .sidebar-bottom {
   right: 0;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  font: 400 13px "Didact Gothic", sans-serif;
+  font: 400 13px "Nexa", sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
@@ -9855,7 +9864,7 @@ div[class*=' bg-black'].sidebar-nav-content .sidebar-bottom {
   right: 0;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  font: 400 13px "Didact Gothic", sans-serif;
+  font: 400 13px "Nexa", sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
@@ -10121,7 +10130,7 @@ div[class*=' bg-black'].sidebar-nav-content .sidebar-bottom {
   transform: translateY(-50%);
   text-align: right;
   color: #646464;
-  font: 400 13px "Didact Gothic", sans-serif;
+  font: 400 13px "Nexa", sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
@@ -10134,7 +10143,7 @@ div[class*=' bg-black'].sidebar-nav-content .sidebar-bottom {
   transform: translateY(0);
   margin-left: 5px;
   text-align: left;
-  font: 300 16px "Didact Gothic", sans-serif;
+  font: 300 16px "Nexa", sans-serif;
   letter-spacing: 0;
   text-transform: none;
 }
