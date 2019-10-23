@@ -415,7 +415,7 @@ $(function() {
     htmlBody.animate({scrollTop : 0}, 600, "easeInOutQuart");
     return false;
   });
-  
+
 
   /*===============================================
     Portfolio
@@ -447,7 +447,7 @@ $(function() {
     var $defaults = {
       rewind: true,
       navText: ["<i class='ti-angle-left'></i>","<i class='ti-angle-right'></i>"],
-      autoHeight: true, 
+      autoHeight: true,
       autoplayTimeout: 4000,
       autoplayHoverPause: true
     }
@@ -536,7 +536,7 @@ $(function() {
   $(".blog-masonry").masonry({
     itemSelector: '.blog-post-box'
   });
-  
+
 
   /*===============================================
     Magnific Popup
@@ -549,7 +549,7 @@ $(function() {
       type: 'image',
       fixedContentPos: false,
       removalDelay: 200,
-      closeOnContentClick: true, 
+      closeOnContentClick: true,
       image: {
         titleSrc: 'data-image-title'
       }
@@ -695,11 +695,11 @@ $(function() {
   if ($(".accordion li").hasClass("active")) {
     var accordionActiveContent = $(".accordion > li.active > .accordion-content");
     var accordionHeight = accordionActiveContent.prop("scrollHeight");
-    
+
     accordionActiveContent.css({'max-height': accordionHeight + "px"});
   }
 
-  
+
   /*===============================================
     Fun Facts Counter
   ===============================================*/
@@ -772,7 +772,7 @@ $(function() {
 
   createAccountToggle.on("click", function() {
     var c = $(".create-account-box");
-    
+
     if (createAccountToggle.is(":checked")) {
       c.addClass("create-account-box-show");
     }
@@ -807,10 +807,11 @@ $(function() {
       el: "#map-canvas",
       lat: initLatitude,
       lng: initLongitude,
-      zoom: 16,
+      zoom: 12,
       scrollwheel: false
+
     });
-    
+
     map.addMarker({
       lat : initLatitude,
       lng : initLongitude
