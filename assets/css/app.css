@@ -3503,7 +3503,7 @@ input,
 textarea {
   background: transparent;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid grey;
   margin-bottom: 15px;
   padding: 15px 20px;
   box-shadow: none;
@@ -4257,7 +4257,7 @@ ol li ul, ol li ol {
 }
 
 .nav.nav-tabs {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid grey;
 }
 
 .nav.nav-tabs .nav-item {
@@ -4277,7 +4277,7 @@ ol li ul, ol li ol {
 
 .nav.nav-tabs .nav-item .nav-link.active {
   border: 1px solid;
-  border-color: black black #fff;
+  border-color: grey grey #fff;
 /*  border-top:    1px solid red;
   border-right:  1px solid red;
   border-left: 1px solid red;
@@ -10123,7 +10123,7 @@ div[class*=' bg-black'].sidebar-nav-content .sidebar-bottom {
 }
 
 .payment-detail-box {
-  border: 1px solid black;
+  border: 1px solid grey;
   padding: 30px;
 }
 
