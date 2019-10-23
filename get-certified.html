@@ -118,7 +118,9 @@
 
           <!-- Contact details -->
           <h4 class="margin-bottom-20">Contact details</h4>
-          <form action="https://formspree.io/wyss.a.marc@gmail.com" method="POST"  id="contactForm" name="sentMessage" novalidate="">
+
+
+          <form action="https://formspree.io/wyss.a.marc@gmail.com" method="POST"  id="contactForm" name="sentMessage" novalidate="" enctype="multipart/form-data">
             <div class="row">
               <div class="col-12 col-sm-6">
                 <label class="required">First name of contact person</label>
@@ -182,10 +184,18 @@
 
               <div class="custom-file">
                 <input type="file" class="custom-file-input" id="inputGroupFile01"
-                aria-describedby="inputGroupFileAddon01" name="laboratory-certificate">
+                aria-describedby="inputGroupFileAddon01" name="upload">
                 <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
               </div>
             </div>
+
+
+       <!--      <label>
+              Your file:
+              <input type="file" name="upload">
+            </label> -->
+
+
 
 
             <div class="row">
