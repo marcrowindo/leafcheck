@@ -169,7 +169,11 @@ h4.nav-link {
 
 .contact-details li {
   margin-bottom: 20px;
+  list-style: none;
 }
+
+
+
 
 /*Products*/
 
@@ -228,6 +232,7 @@ div.modal-body {
   max-width: 20px;
   margin-right: 15px;
 }
+
 
 
 
