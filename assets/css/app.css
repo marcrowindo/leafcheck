@@ -253,6 +253,7 @@ h2.font-weight-light {
 }
 .cta-text {
   color: white;
+  padding: 5px !important;
 }
 .button-white {
   color: #e70a3e !important;
@@ -288,6 +289,20 @@ input.filestyle {
 .footer-seal {
   max-width: 150px;
   margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .mobile-adaptive-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-seal {
+    margin-bottom: 30px;
+  }
+
 }
 
 
