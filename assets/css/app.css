@@ -295,6 +295,15 @@ input.filestyle {
   margin-top: 10px;
 }
 
+.mobile-adaptive-footer {
+  color: rgba(255, 255, 255, 0.7)
+}
+
+#pitch {
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 600px) {
   .mobile-adaptive-footer {
     display: flex;
