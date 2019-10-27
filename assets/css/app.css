@@ -336,7 +336,7 @@ input.filestyle {
 }
 
 .bg-dark-content, .bg-black, .bg-black-09, .bg-black-08, .bg-black-07, .bg-black-06, .bg-black-05, .bg-black-04, .bg-black-03, .bg-black-02, .bg-black-01, .bg-dark-lighter, .bg-dark-lightest, .bg-dark {
-  color: rgba(255, 255, 255, 0.6);
+  /*color: rgba(255, 255, 255, 0.6);*/
 }
 
 .bg-dark-content h1, .bg-black h1, .bg-black-09 h1, .bg-black-08 h1, .bg-black-07 h1, .bg-black-06 h1, .bg-black-05 h1, .bg-black-04 h1, .bg-black-03 h1, .bg-black-02 h1, .bg-black-01 h1, .bg-dark-lighter h1, .bg-dark-lightest h1, .bg-dark h1, .bg-dark-content h2, .bg-black h2, .bg-black-09 h2, .bg-black-08 h2, .bg-black-07 h2, .bg-black-06 h2, .bg-black-05 h2, .bg-black-04 h2, .bg-black-03 h2, .bg-black-02 h2, .bg-black-01 h2, .bg-dark-lighter h2, .bg-dark-lightest h2, .bg-dark h2, .bg-dark-content h3, .bg-black h3, .bg-black-09 h3, .bg-black-08 h3, .bg-black-07 h3, .bg-black-06 h3, .bg-black-05 h3, .bg-black-04 h3, .bg-black-03 h3, .bg-black-02 h3, .bg-black-01 h3, .bg-dark-lighter h3, .bg-dark-lightest h3, .bg-dark h3, .bg-dark-content h4, .bg-black h4, .bg-black-09 h4, .bg-black-08 h4, .bg-black-07 h4, .bg-black-06 h4, .bg-black-05 h4, .bg-black-04 h4, .bg-black-03 h4, .bg-black-02 h4, .bg-black-01 h4, .bg-dark-lighter h4, .bg-dark-lightest h4, .bg-dark h4, .bg-dark-content h5, .bg-black h5, .bg-black-09 h5, .bg-black-08 h5, .bg-black-07 h5, .bg-black-06 h5, .bg-black-05 h5, .bg-black-04 h5, .bg-black-03 h5, .bg-black-02 h5, .bg-black-01 h5, .bg-dark-lighter h5, .bg-dark-lightest h5, .bg-dark h5, .bg-dark-content h6, .bg-black h6, .bg-black-09 h6, .bg-black-08 h6, .bg-black-07 h6, .bg-black-06 h6, .bg-black-05 h6, .bg-black-04 h6, .bg-black-03 h6, .bg-black-02 h6, .bg-black-01 h6, .bg-dark-lighter h6, .bg-dark-lightest h6, .bg-dark h6 {
