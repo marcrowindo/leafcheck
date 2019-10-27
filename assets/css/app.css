@@ -233,9 +233,10 @@ div.modal-body {
   margin-right: 15px;
 }
 
-.rebel {
-  color: grey !important;
-  z-index: 20 !important;
+.detail {
+  margin-top: 20px;
+    display: block !important;
+
 }
 
 
