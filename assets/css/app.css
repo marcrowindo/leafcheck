@@ -235,6 +235,7 @@ div.modal-body {
 
 .rebel {
   color: grey !important;
+  z-index: 20 !important;
 }
 
 
