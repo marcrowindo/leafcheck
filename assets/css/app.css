@@ -51,6 +51,10 @@
 
 /*Jumbotron*/
 
+.title {
+  line-height: 80px !important;
+}
+
 #seal-main {
   max-width: 250px;
   margin-bottom: 70px;
