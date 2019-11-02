@@ -52,8 +52,19 @@
 /*Jumbotron*/
 
 .title {
-  line-height: 80px !important;
+  line-height: 80px;
 }
+
+@media (max-width: 350px) {
+    .section-xl.bg-image .container, .section-xl.bg-image .container-fluid {
+      padding: 80px 20px !important;
+    }
+    #seal-main {
+      margin-bottom: 50px !important;
+    }
+  }
+
+
 
 #seal-main {
   max-width: 250px;
@@ -75,6 +86,10 @@
   }
   .title {
     font-size: 34px !important;
+    line-height: 50px;
+  }
+  .title-container{
+    white-space: normal !important;
   }
   .section-xl#mission {
     background-image: url("assets/images/background-mission2.png") !important;
@@ -92,6 +107,7 @@
   flex-direction: column;
   text-align: center;
   margin-left: 0px;
+  white-space: nowrap;
 }
 
 .position-bottom {
@@ -9155,7 +9171,7 @@ body.loaded:after {
 }
 
 .section-xl.bg-image .container, .section-xl.bg-image .container-fluid {
-  padding: 200px 20px;
+  padding: 150px 20px;
 }
 
 @media (max-width: 768px) {
@@ -9187,7 +9203,7 @@ body.loaded:after {
     padding: 180px 0;
   }
   .section-xl.bg-image .container, .section-xl.bg-image .container-fluid {
-    padding: 80px 20px;
+    padding: 130px 20px;
   }
 }
 
