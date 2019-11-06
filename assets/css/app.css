@@ -247,6 +247,14 @@ h4.nav-link {
   flex-direction: column;
 }
 
+@media (max-width: 600px) {
+  .mobile-centered {
+    text-align: center;
+  }
+}
+
+
+
 /*Timeline*/
 
 ul.timeline {
@@ -294,6 +302,12 @@ div.modal-body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .mobile-item {
+    display: none;
+  }
 }
 
 
