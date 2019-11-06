@@ -88,11 +88,14 @@
     font-size: 34px !important;
     line-height: 50px;
   }
-  .title-container{
-    white-space: normal !important;
-  }
   .section-xl#mission {
     background-image: url("assets/images/background-mission2.png") !important;
+  }
+}
+
+@media (max-width: 1050px) {
+  .title-container{
+    white-space: normal !important;
   }
 }
 
@@ -150,6 +153,15 @@
 
 /*Testimonials*/
 
+
+
+
+
+
+
+
+
+
 /*Process tabs*/
 
 ul.nav-tabs {
@@ -192,7 +204,27 @@ h4.nav-link {
   list-style: none;
 }
 
+@media (max-width: 600px) {
+  .desktop-item {
+    display: none;
+  }
+  .icon-certificate {
+    margin-bottom: 0px !important;
+  }
+}
 
+
+
+.icon-certificate {
+  max-height: 80px;
+  margin-bottom: 20px;
+}
+
+
+.icon-check {
+  max-height: 80px;
+  margin-bottom: 20px;
+}
 
 
 /*Products*/
@@ -208,6 +240,11 @@ h4.nav-link {
 
 .cards {
   justify-content: center;
+}
+
+.product-display {
+  align-items: center;
+  flex-direction: column;
 }
 
 /*Timeline*/
@@ -253,7 +290,12 @@ ul.timeline > li:before {
 
 div.modal-body {
   padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
 
 /*Questions container*/
 .question-icon {
@@ -4292,6 +4334,7 @@ ol li ul, ol li ol {
 .nav .nav-item:last-child {
   margin-right: 0;
 }
+
 
 .nav .nav-item .nav-link {
   padding: 0;
