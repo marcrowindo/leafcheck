@@ -304,6 +304,24 @@ div.modal-body {
   flex-direction: column;
 }
 
+div.modal-body-b {
+  padding: 30px 20px;
+  display: flex;
+}
+
+.padding-left-30 {
+  padding-left: 20px;
+}
+
+th, td {
+  padding: 5px;
+}
+
+.background-grey {
+  background-color: #EEEEEE;
+}
+
+
 @media (min-width: 600px) {
   .mobile-item {
     display: none;
