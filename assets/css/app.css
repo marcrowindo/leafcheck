@@ -320,7 +320,9 @@ th, td {
   padding-left: 10px;
 }
 
-
+.small-script {
+  font-size: 9px;
+}
 
 .background-grey {
   background-color: #EEEEEE;
